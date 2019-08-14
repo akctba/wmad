@@ -12,6 +12,13 @@ td{
     text-align: center;
     padding: 10px;
 }
+
 th{
-    background-color: grey;
+    background-color: darkgrey;
+    color: white !important;
+}
+
+.contador{
+    width: 40px;
+    color: grey;
 }
