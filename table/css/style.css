@@ -1,0 +1,17 @@
+tr, td, th{
+    border: 2px solid green;
+    
+}
+
+table{
+    border-collapse: collapse;
+    width: 400px;
+    margin: 10px auto;
+}
+td{
+    text-align: center;
+    padding: 10px;
+}
+th{
+    background-color: grey;
+}
