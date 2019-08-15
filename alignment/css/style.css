@@ -1,0 +1,21 @@
+#group{
+    background-color: rgb(148, 148, 236);
+    width: 90%;
+    border: 2px solid red;
+    margin: 10px auto; /*auto para centralizar */
+    padding: 50px; /* margem fora do DIV */
+    font-size: 1.5em; /* margem dentro do DIV */
+}
+
+img{
+    float: right; /* a direita do próximo objeto */
+    margin: 5px;
+    border: 10px solid white;
+    border-radius: 10%;
+
+}
+
+p::first-letter{
+    color: rgb(218, 140, 23);
+    font-size: 150%;
+}
