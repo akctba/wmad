@@ -1,0 +1,30 @@
+.inlineblock{
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+}
+p.inline{
+    width: 300px;
+    margin: 10px;
+    background-color: lightgreen;
+    display: inline-block;
+    color: white;
+    padding: 20px;
+}
+.flexblock{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+p.down{
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    background-color: red;
+    color: white;
+}
+
+#container{
+    width: 100%;
+}

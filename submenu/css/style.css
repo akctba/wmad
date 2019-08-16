@@ -1,0 +1,49 @@
+body{
+    background: url(../images/bg.jpg)
+}
+
+ul li:hover{
+    background-color: rgb(57, 236, 147);
+}
+
+ul li{
+    width: 200px;
+    background-color: green;
+    float: left;
+    color: white;
+    height: 30px;
+    line-height: 30px;
+}
+
+ul li ul{
+    display: none;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+    border: 2px solid white transparent;
+    font-size: 1.5em;
+    padding: 5px;
+    float: left;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+ul li:hover ul li{
+    opacity: 0.7;
+    position: relative;
+    left: -48px;
+    top: 5px;
+}
+
+ul li ul li{
+    font-size: 1em;
+}
+
+ul li ul li:hover{
+    font-size: 1em;
+    background-color: blueviolet;
+}
