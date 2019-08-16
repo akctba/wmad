@@ -22,7 +22,7 @@ ul li ul{
 li{
     list-style: none;
     text-align: center;
-    border: 2px solid white transparent;
+    border: 5px solid white transparent;
     font-size: 1.5em;
     padding: 5px;
     float: left;
