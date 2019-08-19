@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div > p{
+            color: red;
+            font-weight: 800;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        1. descendent    space
+        2. child        >
+        3. adjacent     +
+        4. general      ~
+    -->
+
+    <div>
+        <p>First</p>
+        <p>Second</p>
+        <p>Third</p>
+        <p>Fourth</p>
+        <span><p>Fifth</p></span>
+        <p>Sixth</p>
+    </div>
+</body>
+</html>
