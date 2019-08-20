@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Airplane assignment</title>
+    <style>
+        #ap {
+            position: relative;
+            width: 5vw;
+            top: 10px;
+            left: 1000px;
+            transition: 4s ease-in 1 forwards;
+            animation-fill-mode: forwards;
+        }
+
+        #ap:hover {
+            transform: translateX(-800px) translateY(800px) rotate(-60deg) scale(3, 3);
+        }
+
+        /* BOX NAME */
+        div.container {
+            height: 10em;
+            position: relative;
+        }
+        div.container p {
+            color: skyblue;
+            font-size: 4em;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-right: -50%;
+            transform: translate(-50%, -50%);
+        }
+
+        video {
+            position: absolute;
+            /*to hide the video*/
+            width: 0px;
+            height: 0px;
+        }
+    </style>
+</head>
+<body>
+    
+    
+
+    <!--Airplane image-->
+    <img id="ap" src="images/airplane.png" alt="airplane" />
+
+    <!--Airplane sound-->
+    <video autoplay>
+        <source src="images/airplane.mp4">
+    </video>
+
+    <div class="container">
+            <p>ALEX KAYSER</p>
+        </div>
+</body>
+</html>
