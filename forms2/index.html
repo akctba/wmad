@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form class</title>
+    <style>
+        /* *{
+            padding: 5px;
+            margin: 5px;
+        } */
+        fieldset {
+            width: 80%;
+            background-color: aqua;
+            margin: 5px auto;
+            border-radius: 20px;
+            padding: 10px;
+        }
+
+        html{
+            font-size: 20px;
+        }
+        body {
+            background-color: gold;
+        }
+        legend{
+            font-size: 2rem;
+        }
+
+        .button{
+            width: 300px;
+            display: flex;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        .button input{
+            font-size: 2rem;
+            margin: 20px;
+            padding: 12px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="http://www.google.ca">
+        <fieldset>
+            <h1>1. Name</h1>
+            <legend>Survey form</legend>
+            <br/>First name: <input type="text" placeholder="type your name">
+            <br/>Last name: <input type="text" placeholder="type your last name">
+            <h1>2. Courses</h1>
+            <br><label for="web">Web:</label><input type="radio" id="web" class="web" name="course" value="web">
+            <br><label for="mobile">Mobile:</label><input type="radio" id="mobile" class="mobile" name="course" value="mobile">
+            <br><label for="dms">Dms:</label><input type="radio" id="dms" class="dms" name="course" value="dms">
+            <br><h1>3. Comments</h1>
+            <textarea name="comment" id="com" cols="50" rows="10" placeholder="Type your comments here"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Second survey</legend>
+            <h1>1. Personal information</h1>
+            <br/>Email address: <input type="email" placeholder="Your best email">
+            <br/>Phone number: <input type="tel" placeholder="your phone number">
+            <h1>2. Choose your favorite classmates</h1>
+            <br><label for="yuki">Yuki: </label> <input type="checkbox" name="yuki" id="yuki" value="yuki">
+            <br><label for="vlad">Vlad: </label> <input type="checkbox" name="vlad" id="vlad" value="vlad">
+            <br><label for="ruri">Ruri: </label> <input type="checkbox" name="ruri" id="ruri" value="ruri">
+            <br><label for="Peri">Peri: </label> <input type="checkbox" name="peri" id="peri" value="peri">
+            <br><label for="yuya">Yuya: </label> <input type="checkbox" name="yuya" id="yuya" value="yuya">
+            <h1>3. Gender</h1>
+            <select name="" id="">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </fieldset>
+        <div class="button">
+            <input type="reset" value="Clear">
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

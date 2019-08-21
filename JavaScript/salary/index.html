@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculating Salary</title>
+</head>
+<body>
+
+    
+    <div>
+        <label for="hourRate">Hour Rate: </label>
+        <input type="number" id="hourRate" value="14"/><br>
+
+        <label for="workedHours">Worket hours: </label>
+        <input type="number" id="workedHours" value="90"/><br>
+
+        <label for="normalHours">Normal hours: </label>
+        <input type="number" id="normalHours" value="80"/><br>
+
+        <label for="overtimeRate">Overtime Rate: </label>
+        <input type="number" id="overtimeRate" value="1.5"/><br>
+
+        <label for="name">Your name, if you want: </label>
+        <input type="text" id="name"><br>
+        <button type="button" onclick="calcSalary()">Calculate salary</button>
+    </div>
+
+    <div id="output"></div>
+    
+    <script>
+        function calcSalary() {
+            
+            let hourRate = document.getElementById("hourRate").value;
+            let workedHours = document.getElementById("workedHours").value;
+            let normalHours = document.getElementById("normalHours").value;
+            let overtimeRate = document.getElementById("overtimeRate").value;
+            let name = document.getElementById("name").value;
+
+            let nh, eh, totalSalary, ns, es, msg;
+            
+            if (workedHours > normalHours) {
+                nh = normalHours;
+                eh = workedHours - normalHours;
+            } else {
+                nh = workedHours;
+                eh = 0;
+            }
+
+            ns = nh * hourRate;
+            es = eh * overtimeRate * hourRate;
+
+            totalSalary = ns + es;
+
+            msg = "Hi"
+            if (name != '') {
+                msg += " " + name;
+            }
+            msg += ", your total work hours are " + workedHours;
+            msg += " ( " + nh + " regular and " + eh + " extra hours)";
+            msg += "<br>and you get paid " + totalSalary + " CAD.";
+
+            document.getElementById("output").innerHTML = msg;
+        }
+
+    </script>
+    
+</body>
+</html>
