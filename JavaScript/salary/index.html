@@ -5,29 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calculating Salary</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
 </head>
 <body>
 
-    
-    <div>
-        <label for="hourRate">Hour Rate: </label>
-        <input type="number" id="hourRate" value="14"/><br>
+    <div class="container">
+        <h1>Calculate your salary</h1>
 
-        <label for="workedHours">Worket hours: </label>
-        <input type="number" id="workedHours" value="90"/><br>
+        <form>
+        <fieldset class="field">
+            <legend>Your data</legend>
+            <div class="label"><label for="name">Your name, if you want: </label></div>
+            <input type="text" id="name"><br>
 
-        <label for="normalHours">Normal hours: </label>
-        <input type="number" id="normalHours" value="80"/><br>
+            <div class="label"><label for="hourRate">Hour Rate: </label></div>
+            <input type="number" id="hourRate" value="14"/><br>
 
-        <label for="overtimeRate">Overtime Rate: </label>
-        <input type="number" id="overtimeRate" value="1.5"/><br>
+            <div class="label"><label for="workedHours">Total worked hours: </label></div>
+            <input type="number" id="workedHours" value="90"/><br>
+        </fieldset>
 
-        <label for="name">Your name, if you want: </label>
-        <input type="text" id="name"><br>
-        <button type="button" onclick="calcSalary()">Calculate salary</button>
+        <fieldset class="field">
+            <legend>Settings</legend>
+            <div class="label"><label for="normalHours">Normal hours: </label></div>
+            <input type="number" id="normalHours" value="80"/><br>
+
+            <div class="label"><label for="overtimeRate">Overtime Rate: </label></div>
+            <input type="number" id="overtimeRate" value="1.5"/><br>
+        </fieldset>
+        
+        <button type="button" class="calc" onclick="calcSalary()">Calculate salary</button>
+        <button type="reset" class="reset">Clean and try again</button>
+    </form>
+
+        <div id="output"></div>
     </div>
-
-    <div id="output"></div>
     
     <script>
         function calcSalary() {

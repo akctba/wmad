@@ -1,0 +1,40 @@
+body {
+    background-color: aquamarine;
+}
+
+fieldset.field {
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+div.container {
+    padding: 15px;
+    width: 80%;
+}
+
+div.label {
+    width: 200px;
+    padding: 2px;
+    font-size: 1em;
+    font-weight: normal;
+}
+input {
+    font-family: fantasy;
+    font-size: 1.8em;
+    text-align: center;
+}
+button.calc {
+    padding: 5px;
+    background-color: lightgreen;
+}
+button.reset {
+    padding: 5px;
+    background-color: rgb(230, 114, 114);
+    color: white;
+}
+
+#output {
+    font-weight: bold;
+    color: blue;
+}

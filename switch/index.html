@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="output"></h1>
+    <script>
+        let promp = prompt("Tell me the month number");
+
+        let out = document.getElementById("output");
+        
+        if(promp.isNaN) {
+            out.innerHTML=promp + " is not a number. Please choose between 1 and 12.";
+        } else {
+            let monthNumber = Number(promp);
+
+            switch(monthNumber) {
+                case 1: out.innerHTML = "January"; break;
+                case 2: out.innerHTML = "February"; break;
+                case 3: out.innerHTML = "March"; break;
+                case 4: out.innerHTML = "April"; break;
+                case 5: out.innerHTML = "May"; break;
+                case 6: out.innerHTML = "June"; break;
+                case 7: out.innerHTML = "July"; break;
+                case 8: out.innerHTML = "August"; break;
+                case 9: out.innerHTML = "September"; break;
+                case 10: out.innerHTML = "October"; break;
+                case 11: out.innerHTML = "November"; break;
+                case 12: out.innerHTML = "December"; break;
+                default: out.innerHTML = "Please choose between 1 and 12.";
+            }
+        }
+
+    </script>
+</body>
+</html>
