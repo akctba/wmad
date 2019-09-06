@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="output">This text will be replaced by another from JavaScript button</h1>
+    <script>
+        function newText() {
+            let today = new Date();
+            let text = "This is a new text writed by JavaScript ";
+
+            text+=today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+
+            document.getElementById('output').innerHTML=text;
+        }
+    </script>
+    <button type="button" onclick="newText()">
+        Click me
+    </button>
+</body>
+</html>

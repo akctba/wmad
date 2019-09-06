@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <img id="output" src="images/pic_bulboff.gif" alt="bulb_off" style="width:100px;" onclick="bulb()">
+    <br>
+    <button type="button" onclick="document.getElementById('output').src='images/pic_bulbon.gif'">Turn on</button>
+    <button type="button" onclick="document.getElementById('output').src='images/pic_bulboff.gif'">Turn off</button>
+    
+    <script>
+
+        function bulb() {
+            let bulb = document.getElementById('output');
+            
+            if (bulb.alt == "bulb_off") {
+                bulb.src = "images/pic_bulbon.gif";
+                bulb.alt = "bulb_on";
+            } else {
+                bulb.src = "images/pic_bulboff.gif";
+                bulb.alt = "bulb_off";
+            }
+        }
+    </script>
+</body>
+</html>
