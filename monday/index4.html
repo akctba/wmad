@@ -34,17 +34,16 @@
             if(eng.isNaN || mat.isNaN || sci.isNaN) {
                 alert("Please, type only numbers to marks");
             } else {
-                let engScore = Number(eng);
-                let matScore = Number(mat);
-                let sciScore = Number(sci);
+                let engScore = parseInt(eng);
+                let matScore = parseInt(mat);
+                let sciScore = parseInt(sci);
 
                 let avg = (engScore+matScore+sciScore)/3;
-                avg = Math.trunc(avg);
 
                 pEnglish.innerHTML = "<strong>English:</strong> " + eng;
                 pMath.innerHTML = "<strong>Math:</strong> " + mat;
                 pScience.innerHTML = "<strong>Science:</strong> " + sci;
-                pAverage.innerHTML = "<strong>Average:</strong> " + avg;
+                pAverage.innerHTML = "<strong>Average:</strong> " + avg.toFixed(2);
 
                 if(avg>=90) {
                     message.innerHTML = name + ", you are excellent!";

@@ -14,9 +14,9 @@
         let out = document.getElementById("output");
         
         if(promp.isNaN) {
-            out.innerHTML=promp + " is not a number. Please choose between 1 and 12.";
+            out.innerHTML = promp + " is not a number. Please choose between 1 and 12.";
         } else {
-            let monthNumber = Number(promp);
+            let monthNumber = parseInt(promp);
 
             switch(monthNumber) {
                 case 1: out.innerHTML = "January"; break;

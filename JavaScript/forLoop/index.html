@@ -7,17 +7,25 @@
     <title>For Loop example</title>
 </head>
 <body>
-
+    <h1>The sum of a sequence between...</h1>
     <div id="output"></div>
 
     <script>
-        for(let number = 0; number <= 12; number += 2) {
-            document.writeln(number);
-            document.writeln("<br>");
 
-            document.getElementById("output").innerHTML = number;
+        var numberA = parseInt(prompt("Tell me the first number"));
+        var numberB = parseInt(prompt("Tell me the last number"));
+        var total = 0;
+
+        /* this for loop will have three sections:
+        1. starting oint
+        2. range(scope) of numbers
+        3. increment / decrement
+        */
+        for(let number = numberA; number <= numberB; number++) {
+            total += number;
             
         }
+        document.getElementById("output").innerHTML = "The total sum from " + numberA + " to " + numberB + " is " + total;
     </script>
     
 </body>
