@@ -1,5 +1,35 @@
+body {
+    background-color: bisque;
+}
+
 h1{
     width: 600px;
     height: 300px;
     background-color: yellowgreen;
+}
+
+.box{
+    height: 400px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    padding: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.subject{
+    color: chocolate;
+    font-size: 1em;
+}
+
+p#message{
+    color: brown;
+    font-size: 1.5em;
 }

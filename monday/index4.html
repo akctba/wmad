@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Average marks</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <p class="title">Let's check your grades</p>
+        <p class="subject" id="english"></p>
+        <p class="subject" id="math"></p>
+        <p class="subject" id="science"></p>
+        <p class="subject" id="average"></p>
+        <p id="message"></p>
+    </div>
+
+    <script>
+        function student() {
+            let name = prompt("What is your name?");
+            let eng = prompt("What is your mark in English?");
+            let mat = prompt("What is your mark in Math?");
+            let sci = prompt("What is your mark in Science?");
+
+            let pEnglish = document.getElementById("english");
+            let pMath = document.getElementById("math");
+            let pScience = document.getElementById("science");
+            let pAverage = document.getElementById("average");
+            let message = document.getElementById("message");
+
+            if(eng.isNaN || mat.isNaN || sci.isNaN) {
+                alert("Please, type only numbers to marks");
+            } else {
+                let engScore = Number(eng);
+                let matScore = Number(mat);
+                let sciScore = Number(sci);
+
+                let avg = (engScore+matScore+sciScore)/3;
+                avg = Math.trunc(avg);
+
+                pEnglish.innerHTML = "<strong>English:</strong> " + eng;
+                pMath.innerHTML = "<strong>Math:</strong> " + mat;
+                pScience.innerHTML = "<strong>Science:</strong> " + sci;
+                pAverage.innerHTML = "<strong>Average:</strong> " + avg;
+
+                if(avg>=90) {
+                    message.innerHTML = name + ", you are excellent!";
+                } else if(avg>=80) {
+                    message.innerHTML = name + ", you did a good job!";
+                } else if(avg>=70) {
+                    message.innerHTML = "Not bad, " + name;
+                } else {
+                    message.innerHTML = "Sorry "+name+", you faild. Please go home and take a rest.";
+                }
+            }
+        }
+        student();
+    </script>
+</body>
+</html>
