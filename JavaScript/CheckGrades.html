@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Checking Grades</title>
+</head>
+<body>
+    <h1 id="output"></h1>
+    <button type="button" onclick="calc()">Check your grades</button>
+
+    <script>
+        function calc() {
+
+            //step 1
+            var name = "";
+            var java = 0;
+            var intro = 0;
+            var algo = 0;
+            var average = 0;
+
+            //step 2
+            name = prompt("What is your name?");
+            java = parseInt(prompt("Enter your Java score"));
+            intro = parseInt(prompt("Enter your Intro score"));
+            algo = parseInt(prompt("Enter your Algorithim score"));
+
+            //step 3
+            average = (java + intro + algo) / 3;
+
+            //step 4, average verification
+            if (average >= 70) {
+                document.getElementById("output").innerHTML = 
+                    name + ", you passed because you got " + average.toFixed(2);
+            } else {
+                document.getElementById("output").innerHTML = 
+                    name + ", you fail because you got " + average.toFixed(2);
+            }
+
+        }
+    </script>
+</body>
+</html>
