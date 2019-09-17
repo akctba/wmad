@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+</head>
+<body>
+    <h1 id="output"></h1>
+    <button type="button" onclick="calc()">Calculator</button>
+
+    <script>
+    function calc() {
+        var name = prompt("What is your name");
+        
+        var num1 = parseInt(prompt("Type the first number"));
+        var num2 = parseInt(prompt("Type the second number"));
+
+        var op = prompt("Choose one character of calculation: [+, -, * or /]")
+
+        var out = document.getElementById("output");
+
+        switch (op) {
+            case "+":
+                out.innerHTML = "Hi " + name + ", the sum of " + num1 + " and " + num2 + " is " + (num1+num2);           
+            break;
+            case "-":
+                out.innerHTML = "Hi " + name + ", the subtraction of " + num1 + " and " + num2 + " is " + (num1-num2);           
+            break;
+            case "*":
+                out.innerHTML = "Hi " + name + ", the multiplication of " + num1 + " and " + num2 + " is " + (num1*num2);           
+            break;
+            case "/":
+                out.innerHTML = "Hi " + name + ", the division of " + num1 + " and " + num2 + " is " + (num1/num2);
+            break;
+            default: out.innerHTML = "Please choose a valid character of calculation: [+, -, * or /]";
+        }
+
+    }
+    </script>
+</body>
+</html>
