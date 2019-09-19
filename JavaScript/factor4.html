@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Factor of N</title>
+
+    <style>
+    * {
+        padding: 10px;
+    }
+    </style>
+
+</head>
+<body>
+
+    <h1>Find factors in an array</h1>
+    The Array: <input type="text" id="numbers"><br>
+    <div id="output"></div>
+    <button type="button" onclick="findFac()">Find!</button>
+
+    <script>
+        function findFac() {
+            let numbers = document.getElementById("numbers").value;
+            let list = numbers.split(",");
+
+            let out = document.getElementById("output");
+
+            out.innerHTML = "";
+
+            for(let i=0; i <= list.length; i++) {
+                if (4 % list[i] == 0) {
+                    out.innerHTML += "Position " + i + " value " + list[i] + "<br>";
+                }
+            }
+        }
+    </script>
+</body>
+</html>

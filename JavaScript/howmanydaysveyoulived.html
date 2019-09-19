@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>How many days've you lived</title>
+    <style>
+    *{
+        margin: 5px;
+        padding: 5px;
+    }
+    </style>
+</head>
+<body>
+    <h1>How many days've you lived?</h1>
+
+    Birthdate: <input type="date" id="birth"><br>
+    Date to compare: <input type="date" id="last" value="2019-09-18"><br>
+    <button type="button" onclick="livedDays()">Calculate</button>
+    
+    <div id="output"></div>
+    
+    <div style="color: gray; font-size: 0.6em; padding: 15px;">An creative way to calculate the difference between dates...</div>
+    <script>
+        
+    function livedDays() {
+        var days = 1;
+        var out = document.getElementById("output");
+        var leapYears = 0;
+        var normalYears = 0;
+        
+        out.innerHTML = ""; //clear the output from previous execution
+
+        let last = document.getElementById("last").value;
+        // verifying if the date was setted
+        if (last == "") {
+            out.innerHTML += "Please, fill the day to compare and try again.<br>"
+        }
+        let lastDay = new Date(last.substring(0, 4), last.substring(5, 7)-1, last.substring(8, 10));
+        
+        var birth = document.getElementById("birth").value;
+        // verifying if the date was setted
+        if (birth == "") {
+            out.innerHTML += "Please, fill the birthday to compare and try again.<br>"
+        }
+        var birthday = new Date(birth.substring(0, 4), birth.substring(5, 7)-1, birth.substring(8, 10));
+
+        if (birthday.getTime() >= lastDay.getTime()) {
+            out.innerHTML += "You didn't born yet!";
+            return;
+        }
+
+        // the sensible form
+        // let diff = Math.abs(last.getTime() - birthday.getTime());
+        // days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+
+        // -1- calculate days in the birth year
+        let next = new Date(birthday);
+        if (birthday.getFullYear() < lastDay.getFullYear()) {
+            // if the birthday is before of the current year
+            let lastDayYear = new Date(birthday.getFullYear(), 11, 31);
+            for(let coun = 0; next.getTime() != lastDayYear.getTime() ;coun++) {
+                next.setDate(next.getDate()+1);
+                days++;
+            } 
+        } else if (birthday.getFullYear() == lastDay.getFullYear()) {
+            // if the birthday is in the same year
+            for(let coun = 0; next.getTime() != lastDay.getTime() ;coun++) {
+                next.setDate(next.getDate()+1);
+                days++;
+            }
+        }
+
+
+        // -2- calculate days in the between years
+        // utilized only when there are 3 or more years of difference
+        if (birthday.getFullYear() < lastDay.getFullYear()-1) {
+
+            for (let i=birthday.getFullYear()+1; i<=lastDay.getFullYear()-1; i++) {
+                //verify leap year
+                if (( i % 4 == 0 && i % 100 != 0 ) || (i % 400 == 0)) {
+                    leapYears++;
+                } else {
+                    normalYears++;
+                }
+            }
+
+        }
+        days += (leapYears * 366);
+        days += (normalYears * 365); 
+
+        // -3- calculate days in the current year
+        next = new Date(lastDay.getFullYear(), 0, 1); // jannuary first
+        if (birthday.getFullYear() < lastDay.getFullYear()) {
+            // if the birthday is before of the current year
+            for(let coun = 0; next.getTime() != lastDay.getTime() ;coun++) {
+                next.setDate(next.getDate()+1);
+                days++;
+            } 
+        }
+
+        out.innerHTML += "Days: " + days + "<br>";
+        out.innerHTML += "Leap years: " + leapYears + "<br>";
+        out.innerHTML += "No-leap years: " + normalYears + "<br>";
+
+
+        // BONUS: Verify the weekday of birthday
+        out.innerHTML += "<br>Birthday was " + bonus(birthday) + "<br>";
+    }
+
+    // Verify the weekday of birthday
+    function bonus(day) {
+        let week = new Array(6);
+        week[0]="Sunday";
+        week[1]="Monday";
+        week[2]="Tuesday";
+        week[3]="Wednesday";
+        week[4]="Thursday";
+        week[5]="Friday";
+        week[6]="Saturday";
+
+        return week[day.getDay()];
+    }
+
+    </script>
+</body>
+</html>

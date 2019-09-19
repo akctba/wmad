@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Maximum</title>
+</head>
+<body>
+    
+    <button type="button" onclick="verification()">Verify the maximum</button>
+    <script>
+
+        function verification() {
+            var maximum;
+            var firstNumber = "";
+            var secondNumber = "";
+            var thirdNumber = "";
+            
+            var number1 = null;
+            var number2 = null;
+            var number3 = null;
+
+            do {
+                firstNumber = prompt("Type the first number.");
+                if (Number.isInteger(firstNumber)) {
+                    number1 = Number(firstNumber);
+                } else {
+                    alert("Please, a number...");
+                }
+            } while (number1 == null)
+
+            secondNumber=prompt("Type the second number.");
+            thirdNumber=prompt("Type the third number.");
+
+
+            
+            number1=parseInt(firstNumber);
+            
+            number2=parseInt(secondNumber);
+            
+            number3=parseInt(thirdNumber);
+            
+            maximum=Math.max(number1,number2,number3);
+            
+            document.write("<h1>The biggest number is " + maximum + " </h1>");
+        }
+    </script>
+</body>
+</html>
