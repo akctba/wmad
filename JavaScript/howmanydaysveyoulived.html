@@ -10,18 +10,31 @@
         margin: 5px;
         padding: 5px;
     }
+    .box{
+        color: gray; 
+        font-size: 0.6em; 
+        padding: 15px;
+        background-color: antiquewhite; 
+        width: 350px;
+    }
     </style>
 </head>
 <body>
     <h1>How many days have you lived?</h1>
 
-    Birthdate: <input type="date" id="birth"><br>
-    Date to compare: <input type="date" id="last" value="2019-09-18"><br>
+    Birthdate: <input type="date" id="birth" value="1981-07-29"><br>
+    Date to compare: <input type="date" id="last" value="2019-09-20"><br>
     <button type="button" onclick="livedDays()">Calculate</button>
     
     <div id="output"></div>
+    <div id="out2"></div>
     
-    <div style="color: gray; font-size: 0.6em; padding: 15px;">An creative way to calculate the difference between dates...</div>
+    <div class="box">A creative way to calculate the difference between dates...
+    Instead of...<br>
+    let diff = Math.abs(last.getTime() - birthday.getTime());<br>
+    days = Math.ceil(diff / (1000 * 60 * 60 * 24));
+    </div>
+
     <script>
         
     function livedDays() {
@@ -31,6 +44,8 @@
         var normalYears = 0;
         
         out.innerHTML = ""; //clear the output from previous execution
+
+        // ==== Validation ====
 
         let valid = true;
 
@@ -56,6 +71,8 @@
         }
 
         if(!valid) return;
+
+        // ==== End of validation ====
 
         // the sensible form
         // let diff = Math.abs(last.getTime() - birthday.getTime());
@@ -97,7 +114,7 @@
         days += (normalYears * 365); 
 
         // -3- calculate days in the current year
-        next = new Date(lastDay.getFullYear(), 0, 1); // jannuary first
+        next = new Date(lastDay.getFullYear(), 0, 1); // january first
         if (birthday.getFullYear() < lastDay.getFullYear()) {
             // if the birthday is before of the current year
             for(let coun = 0; next.getTime() != lastDay.getTime() ;coun++) {
@@ -106,13 +123,25 @@
             } 
         }
 
+        if (( birthday.getFullYear % 4 == 0 && birthday.getFullYear % 100 != 0 ) || (birthday.getFullYear % 400 == 0)) {
+            leapYears++;
+        }
+
         out.innerHTML += "Days: " + days + "<br>";
         out.innerHTML += "Leap years: " + leapYears + "<br>";
         out.innerHTML += "No-leap years: " + normalYears + "<br>";
 
 
-        // BONUS: Verify the weekday of birthday
+        // == BONUS == Verify the weekday of birthday
         out.innerHTML += "<br>Birthday was " + bonus(birthday) + "<br>";
+
+
+        //to check 
+        /*
+        let diff = Math.abs(lastDay.getTime() - birthday.getTime());
+        let ddd = Math.ceil(diff / (1000 * 60 * 60 * 24));
+        document.getElementById("out2").innerHTML = ddd;
+        */
     }
 
     // Verify the weekday of birthday
