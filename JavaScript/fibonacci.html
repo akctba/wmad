@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fibonacci</title>
+    <style>
+    * {
+        margin: 5px;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        Initial value: <input type="number" id="initial" value="1"><br>
+        Fibonacci array size: <input type="number" id="size" value="10"><br>
+        <button type="button" onclick="calc()">Go!</button>
+        <div id="output"></div>
+    </div>
+    <script>
+        function calc() {
+
+            let out = document.getElementById("output");
+            out.innerHTML = "";
+
+            let a = 0; 
+            let b = parseInt(document.getElementById("initial").value);
+            let c = b;
+
+            let size = parseInt(document.getElementById("size").value);
+
+            for(let i = 1; i <=size; i++) {
+                out.innerHTML += c + ", ";
+                
+                c = a+b;
+                a = b;
+                b = c;
+            }
+        }
+    </script>
+</body>
+</html>

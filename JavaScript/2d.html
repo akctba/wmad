@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        let out = document.getElementById("output");
+        let total = 0;
+
+        out.innerHTML += "<table>";
+
+        for (let i = 0; i < 13; i++) {
+            out.innerHTML += "<tr>";
+            for (let j = 0; j < 11; j++) {
+                total += 2;
+                out.innerHTML += "<td>" + total + "</td>";
+            }
+            out.innerHTML += "</tr>"
+        }
+
+        out.innerHTML += "</table>";
+
+        //alert(total);
+    </script>
+</body>
+</html>
