@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Merge Sort</title>
+</head>
+<body>
+    <input type="text" id="array" value="6,2,5,3,8,7,1,4,11">
+    <button type="button" onclick="start()">Sort!</button>
+    <div id="output"></div>
+
+    <script>
+        var out = document.getElementById("output");
+        
+        function start() {
+            out.innerHTML = "";
+
+            //read the array from screen
+            let textArray = document.getElementById("array").value;
+            // break into a array
+            let list = textArray.split(",").map(Number);
+
+            out.innerHTML = sort(list, 0, list.length-1);
+
+        }
+
+        function sort(list, iniIndex, endIndex) {
+
+            if(list!=null && list.length>=2) {
+                // find the middle point
+                let mid = (list.length/2);
+
+                let left = list.slice(0, mid);
+                let right = list.slice(mid, list.length-1);
+
+                
+                
+
+            }
+            
+
+        }
+
+        function merge() {
+
+        }
+    </script>
+    
+</body>
+</html>

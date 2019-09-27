@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Selection Sort</title>
+</head>
+<body>
+    <input type="text" id="array" value="1,9,4,5,16,7,33">
+    <button type="button" onclick="selectSort()">Sort!</button>
+    <div id="output"></div>
+
+    <script>
+        var out = document.getElementById("output");
+
+
+        function selectSort() {
+            out.innerHTML = "";
+
+            let textArray = document.getElementById("array").value;
+            let lista = textArray.split(",");
+
+            let n = lista.length;
+            var min_index;
+  
+            for (let i = 0; i < n-1; i++) {
+                min_index = i;
+                for (let j = i+1; j < n; j++) {
+                    //out.innerHTML += "posicao "+i+"-"+j;
+                    if (parseInt(lista[j]) < parseInt(lista[min_index])) { 
+                        min_index = j;
+                    }
+                    //out.innerHTML += " min:" +min_index+ "<br>";
+                }
+    
+                // Swap
+                let temp = lista[i]; 
+                lista[i] = lista[min_index]; 
+                lista[min_index] = temp; 
+                
+                out.innerHTML += "step " + i + ": [" + lista + "]<br>";
+            } 
+        }
+    
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>QuickSort example</title>
+</head>
+<body>
+    <input type="text" id="array" value="6,2,5,3,8,7,1,4,11">
+    <button type="button" onclick="sort()">Sort!</button>
+    <div id="output"></div>
+
+    <script>
+        var out = document.getElementById("output");
+        
+        function sort() {
+            out.innerHTML = "";
+
+            //read the array from screen
+            let textArray = document.getElementById("array").value;
+            // break into a array
+            let list = textArray.split(",");
+
+            // calling my quick sort function
+            let sorted = quickSort(list);
+
+            // printing the result
+            out.innerHTML = "[" + sorted + "]";
+        }
+
+        function quickSort(a) {
+
+            // stop if the array have only one position
+            if (a.length <= 1) {
+                return a;
+            }
+            
+            //choose a number in the array. Ex the last number:
+            let pivot = a[a.length-1];
+
+            let rigth = [];
+            let left = [];
+
+            // iterate to the next to last
+            for (i = 0; i<a.length-1; i++) {
+                //separate the major and minor numbers, in right and left
+                if(parseInt(a[i]) < parseInt(pivot)) {
+                    left.push(a[i]);
+                } else {
+                    rigth.push(a[i]);
+                }
+            }
+
+            // do the same with the left part
+            rigth = quickSort(rigth);
+            //do the same with the left part
+            left = quickSort(left);
+            
+            //unify the parts: right, center (pivot) and left
+            let final = [];
+            final = final.concat(left);
+            final.push(pivot);
+            final = final.concat(rigth);
+
+            //return the whole array
+            return final;
+        }
+    </script>
+</body>
+</html>

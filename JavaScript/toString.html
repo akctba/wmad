@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Array to String</title>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        var out = document.getElementById("output");
+        var food = ["spagetti", "noodle", "icecream", "rice", "steak"];
+        var stringed = food.toString();
+
+        out.innerHTML += food + "<br>";
+        var temp = food.shift();
+        out.innerHTML += temp + "<br>";
+        out.innerHTML += food + "<br>";
+        food.unshift(temp);
+        out.innerHTML += food + "<br>";
+
+        //splice example
+        var cars = ["Benz", "Audi", "Tesla", "BMW"];
+        out.innerHTML += cars + "<br>";
+        delete cars[0];
+        out.innerHTML += cars + "<br>";
+
+        var removed = cars.splice(2, 1, "Toyota", "Honda", "Renault");
+        out.innerHTML += cars + "<br>";
+        out.innerHTML += "removed: " + removed + "<br>";
+
+        // concat
+        var myGirls = ["Cecilie", "Lone"];
+        var myBoys = ["Emil", "Tobias", "Linus"];
+        var myPets = ["Ginger", "Uyu"];
+        var myChildren = myGirls.concat(myBoys);
+        out.innerHTML += "myChildren: " + myChildren + "<br>";
+        var family = myGirls.concat(myBoys,myPets);
+        out.innerHTML += "family: " + family + "<br>";
+        
+    </script>
+</body>
+</html>
