@@ -15,37 +15,68 @@
         var out = document.getElementById("output");
         
         function start() {
+            // clean the output element
             out.innerHTML = "";
 
             //read the array from screen
             let textArray = document.getElementById("array").value;
-            // break into a array
+
+            // break into a array, mapping to numbers
             let list = textArray.split(",").map(Number);
 
-            out.innerHTML = sort(list, 0, list.length-1);
-
+            //call the merge sort function
+            out.innerHTML = mergeSort(list);
         }
 
-        function sort(list, iniIndex, endIndex) {
+        // Merge sort function - Alex Kayser
+        function mergeSort(list) {
 
-            if(list!=null && list.length>=2) {
-                // find the middle point
-                let mid = (list.length/2);
-
-                let left = list.slice(0, mid);
-                let right = list.slice(mid, list.length-1);
-
-                
-                
-
+            // if there are only one element, is sorted!
+            if (list.length <= 1) {
+                return list;
             }
-            
 
+            // find the middle point
+            let mid = Math.floor(list.length/2);
+
+            // divide in two parts
+            let left = list.slice(0, mid);
+            let right = list.slice(mid);
+
+            // return the union of the sorted sides
+            return merge (
+                // sort left and right sides
+                mergeSort(left), mergeSort(right)
+            );
         }
 
-        function merge() {
+        // Merge two lists, in order
+        function merge(listA, listB) {
 
+            //create the sorted array, empty
+            let sorted = [];
+            let aIndex = 0, bIndex = 0;
+
+            // walk into both arrays, comparing the values
+            // and putting in order in the new sorted array
+            while (aIndex < listA.length && bIndex < listB.length) {
+                if (listA[aIndex] < listB[bIndex]) {
+                    sorted.push(listA[aIndex]);
+                    aIndex++; // move 'A' array cursor
+                } else {
+                    sorted.push(listB[bIndex]);
+                    bIndex++; // move 'B' array cursor
+                }
+            }
+
+            // concating the remaining elements
+            sorted = sorted.concat(listA.slice(aIndex));
+            sorted = sorted.concat(listB.slice(bIndex));
+
+            // return the sorted array
+            return sorted;
         }
+        
     </script>
     
 </body>

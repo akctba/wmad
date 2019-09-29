@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bubble Sort</title>
+</head>
+<body>
+        <input type="text" id="array" value="6,2,5,3,8,7,1,4">
+        <button type="button" onclick="start()">Sort!</button>
+        <div id="output"></div>
+    
+        <script>
+            var out = document.getElementById("output");
+            
+            function start() {
+                out.innerHTML = "";
+
+                //read the array from screen
+                let textArray = document.getElementById("array").value;
+                // break into a array
+                let list = textArray.split(",").map(Number);
+
+                //iterates from the first element to the 
+                for(let i=0; i<list.length; i++) {
+                    // Check form the next element (i+1) to the end of the array
+                    for(let j=i+1; j<=list.length; j++) {
+                        // compare current position with the rest of the array
+                        // if the next position is smaller than current, swap
+                        if (list[j] < list[i]) {
+                            //swap
+                            let aux = list[i];
+                            list[i] = list[j];
+                            list[j] = aux;
+                        }
+                    }
+                }
+
+                out.innerHTML = list;
+            }
+
+        </script>
+</body>
+</html>
