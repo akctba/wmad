@@ -34,8 +34,6 @@ import javax.swing.event.ListSelectionListener;
 public class PasswordGenerator {
 
 	private JFrame frmWmadPasswordGenerator;
-//	private final Action clearAction = new ClearAction();
-//	private final Action generateAction = new GenerateAction();
 
 	/**
 	 * Launch the application.
