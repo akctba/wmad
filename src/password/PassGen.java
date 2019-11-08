@@ -59,11 +59,11 @@ public class PassGen {
 			tempPassword += l.get(x);
 		}
 
-		System.out.println("Before:\t" + tempPassword);
+		//System.out.println("Before:\t" + tempPassword);
 		// shuffle the initial password to do not have a sequence pattern
 		tempPassword = shuffle(tempPassword);
 
-		System.out.println("After:\t" + tempPassword);
+		//System.out.println("After:\t" + tempPassword);
 
 		return tempPassword;
 	}
