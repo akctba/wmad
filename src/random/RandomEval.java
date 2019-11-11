@@ -189,7 +189,7 @@ public class RandomEval {
 
 			// apply to the selected method
 			switch (method) {
-			case FIRST_VERSION:
+			case java_util_Random:
 				Random random = new Random();
 
 				for (int i = 0; i < quant; ++i) {
@@ -257,7 +257,7 @@ enum Duplicate {
 }
 
 enum Methods {
-	FIRST_VERSION("First version"), SECOND_VERSION("Second version");
+	java_util_Random("java.util.Random"), SECOND_VERSION("Second version");
 
 	private String name;
 
