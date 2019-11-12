@@ -169,15 +169,7 @@ public class RandomEval {
 
 			// get the values
 			Methods method = (Methods) comboMethod.getSelectedItem();
-//			private JSpinner spnQuantity;
-//			private JSpinner spnFrom;
-//			private JSpinner spnTo;
-//			private JComboBox<Duplicate> comboDuplicate;
 			Duplicate dup = (Duplicate) comboDuplicate.getSelectedItem();
-//			private JList<String> list;
-//			private JLabel lblDuplicates;
-//			private JLabel lblPercduplicates;
-//			private JTable tableReincidence;
 			int from = (int) spnFrom.getValue();
 			int to = (int) spnTo.getValue();
 			int quant = (int) spnQuantity.getValue();
@@ -221,8 +213,9 @@ public class RandomEval {
 				}
 
 				break;
-			case SECOND_VERSION:
-
+			case SECOND_METHOD:
+				//TODO IMPLEMENT ANOTHER WAY OF RANDOM
+				
 				break;
 			default:
 				System.out.println("Please select one method.");
@@ -257,7 +250,7 @@ enum Duplicate {
 }
 
 enum Methods {
-	java_util_Random("java.util.Random"), SECOND_VERSION("Second version");
+	java_util_Random("java.util.Random"), SECOND_METHOD("Second version");
 
 	private String name;
 
