@@ -2,9 +2,16 @@ package cli;
 
 import java.util.Arrays;
 
+/**
+ * 
+ * @author alexkayser
+ *
+ */
 public class CliExample {
 
 	public static void main(String[] commandLineArguments) {
+		
+		/* ##### FIRST SLIDE ##### */
 		
 		//Check if there are any command line arguments passed to the application
 		if(commandLineArguments == null || commandLineArguments.length == 0) {
@@ -40,6 +47,40 @@ public class CliExample {
 		
 		//Add a variable to another and display it to screen
 		System.out.println(IMMUTABILIS + s);
+		
+		/* ##### SECOND SLIDE ##### */
+		System.out.println("\nSecond slide\n");
+
+		//Create a byte type and display it to screen
+		byte vByte = Byte.MAX_VALUE;
+		System.out.println(vByte);
+		
+		//Create a short type and display it to screen
+		short vShort = Short.MAX_VALUE;
+		System.out.println(vShort);
+		
+		//Create an int type and display it to screen
+		int vInt = Integer.MAX_VALUE;
+		System.out.println(vInt);
+		
+		//Create a long type and display it to screen
+		long vLong = Long.MAX_VALUE;
+		
+		//Create a float type and display it to screen
+		float vFloat = Float.MAX_VALUE;
+		System.out.println(vFloat);
+		
+		//Create a double type and display it to screen
+		double vDouble = Double.MAX_VALUE;
+		System.out.println(vDouble);
+		
+		//Create a boolean type and display it to screen
+		boolean vBoolean = Boolean.TRUE || Boolean.parseBoolean("true") || true;
+		System.out.println(vBoolean);
+		
+		//Create a char type and display it to screen
+		char vChar = 'ã';
+		System.out.println(vChar);
 
 
 	}
