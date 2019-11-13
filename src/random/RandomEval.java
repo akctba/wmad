@@ -4,10 +4,13 @@ import java.awt.EventQueue;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.text.DecimalFormat;
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.OptionalInt;
 import java.util.Random;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 import javax.swing.AbstractAction;
@@ -230,13 +233,20 @@ public class RandomEval {
 			} else {
 				lblPercduplicates.setText("0%");
 			}
+			
+			//put in reverse order of values
+			Map<String, Integer> ordered = map.entrySet().stream()
+	                .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
+	                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue,
+	                        (oldValue, newValue) -> oldValue, LinkedHashMap::new));
 
-			tableReincidence.setModel(toTableModel(map));
+
+			tableReincidence.setModel(toTableModel(ordered));
 
 		}
 
 		private TableModel toTableModel(Map<String, Integer> map) {
-			DefaultTableModel model = new DefaultTableModel(new Object[] { "Key", "Value" }, 0);
+			DefaultTableModel model = new DefaultTableModel(new Object[] { "Number", "Repetitions" }, 0);
 			for (Map.Entry<?, ?> entry : map.entrySet()) {
 				model.addRow(new Object[] { entry.getKey(), entry.getValue() });
 			}
