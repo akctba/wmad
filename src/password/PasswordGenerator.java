@@ -304,22 +304,4 @@ public class PasswordGenerator {
 		JMenuItem mntmAbout = new JMenuItem("About");
 		mnHelp.add(mntmAbout);
 	}
-//	private class ClearAction extends AbstractAction {
-//		public ClearAction() {
-//			putValue(NAME, "Clear");
-//			putValue(SHORT_DESCRIPTION, "Reset the options to the initial values");
-//		}
-//		public void actionPerformed(ActionEvent e) {
-//		}
-//	}
-//	private class GenerateAction extends AbstractAction {
-//		public GenerateAction() {
-//			putValue(NAME, "Generate passwords");
-//			putValue(SHORT_DESCRIPTION, "Click to generate some passwords");
-//		}
-//		public void actionPerformed(ActionEvent e) {
-//			System.out.println("Line 232");
-//			
-//		}
-//	}
 }
