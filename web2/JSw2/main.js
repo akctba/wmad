@@ -9,7 +9,7 @@ var timeout = 1500;
 var clean;
 
 btnMessage.onclick = function () {
-    if(input.readOnly)
+    if (input.readOnly)
         return;
 
     if (input.value == '') {
@@ -21,10 +21,21 @@ btnMessage.onclick = function () {
                 output.innerHTML = '';
             }, timeout);
         }, timeout);
+
+        input.focus();
     } else {
         output.innerHTML = input.value;
         input.readOnly = true;
-        clean = setInterval(cleanInput, timeout / 20);
+        clean = setInterval(() => {
+            let txt = input.value;
+            if (txt.length > 0) {
+                input.value = txt.substring(0, txt.length - 1);
+            } else {
+                clearInterval(clean);
+                input.readOnly = false;
+                input.focus();
+            }
+        }, timeout / 20);
     }
 }
 
@@ -37,13 +48,3 @@ input.addEventListener("keyup", () => {
         btnMessage.click();
     }
 });
-
-function cleanInput() {
-    let txt = input.value;
-    if (txt.length > 0) {
-        input.value = txt.substring(0, txt.length - 1);
-    } else {
-        clearInterval(clean);
-        input.readOnly = false;
-    }
-}
