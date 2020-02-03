@@ -40,8 +40,16 @@ btnMessage.onclick = function () {
 }
 
 input.addEventListener("keyup", () => {
+    let enter = false;
+    if (event.key !== undefined) {
+        enter = event.key === 'Enter';
+    } else if(event.keyCode !== undefined) {
+        // keyCode is deprecated on new browsers
+        enter = event.keyCode === 13;
+    }
+
     // Number 13 is the "Enter/return" key on the keyboard
-    if (event.keyCode === 13) {
+    if (enter) {
         // Cancel the default action, if needed
         event.preventDefault();
         // Trigger the button element with a click
