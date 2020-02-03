@@ -5,8 +5,7 @@
 var btnMessage = document.getElementById('sendMessage');
 let input = document.getElementById('message');
 let output = document.getElementById('messageOutput');
-var timeout = 1500;
-var clean;
+const timeout = 2000; //two seconds
 
 btnMessage.onclick = function () {
     if (input.readOnly)
@@ -26,7 +25,8 @@ btnMessage.onclick = function () {
     } else {
         output.innerHTML = input.value;
         input.readOnly = true;
-        clean = setInterval(() => {
+        
+        var clean = setInterval(() => {
             let txt = input.value;
             if (txt.length > 0) {
                 input.value = txt.substring(0, txt.length - 1);
@@ -40,7 +40,7 @@ btnMessage.onclick = function () {
 }
 
 input.addEventListener("keyup", () => {
-    // Number 13 is the "Enter" key on the keyboard
+    // Number 13 is the "Enter/return" key on the keyboard
     if (event.keyCode === 13) {
         // Cancel the default action, if needed
         event.preventDefault();
