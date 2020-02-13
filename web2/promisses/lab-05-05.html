@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Javascript Lab 05-02</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        // $() means "When the document DOM is ready, call the function"
+        $(function () {
+            lab1();
+
+            temperature();
+
+            checkIfStarts('Java');
+
+            promiseTest();
+        });
+
+        // #1
+        function lab1() {
+            $('#multiply').click(function (e) {
+                e.preventDefault();
+
+                //testing both inputs values to prevent error
+                if ($.isNumeric($('#first').val()) && $.isNumeric($('#second').val())) {
+                    let result = $('#first').val() * $('#second').val();
+                    $("#output1").html(`The result is: <br> ${result}`);
+                } else {
+                    $("#output1").html('Please put numbers in both fields')
+                }
+            });
+
+            $('#divide').click(function (e) {
+                e.preventDefault();
+                let a = $('#first').val();
+                let b = $('#second').val();
+
+                if ($.isNumeric(a) && $.isNumeric(b)) {
+                    if (b == 0) {
+                        $("#output1").html('2nd number need to be different than zero');
+                    } else {
+                        $("#output1").html(`The result is: <br> ${a/b}`);
+                    }
+                }
+
+            });
+        }
+
+        // #2
+        function temperature() {
+
+            //(X°C × 9/5) + 32
+            $("#toFah").click(function (e) {
+                e.preventDefault();
+                $('#fah').val('');
+                let f = ($('#celcius').val() * 9 / 5) + 32;
+                $('#fah').val(f);
+            });
+
+            //(X°F − 32) × 5/9
+            $('#toCelcius').click(function (e) {
+                e.preventDefault();
+                $('#celcius').val('');
+                let c = ($('#fah').val() - 32) * 5 / 9;
+                console.log(c);
+                $('#celcius').val(c);
+            });
+
+        }
+
+        // #3
+        function checkIfStarts(txt) {
+            $('#checkJava').click(function (e) {
+                e.preventDefault();
+                let v = $('#toVerify');
+                v.val(v.val().trim());
+                if (v.val() == '') {
+                    $('#output3').html('Please type something');
+                    $('#toVerify').focus();
+                } else {
+                    $('#output3').html(
+                        v.val().startsWith(txt) ?
+                        `Yes, starts with ${txt}` :
+                        `No, doesn't start with ${txt}`
+                    );
+                }
+            });
+        }
+
+        function printString(str) {
+            return new Promise( resolve => {
+                console.log('Printing ... ' + str);
+                setTimeout(() => {
+                    //$('#outputPromise').html(str);
+                    $('#outputPromise').html($('#outputPromise').html() + str);
+                }, 100);
+            });
+        }
+
+        function clearOutPro() {
+            return new Promise( resolve => {
+                console.log('cleaning...');
+                setTimeout(() => {
+                    console.log('timeout 1...');
+                    $('#outputPromise').html('>>');
+                }, 100);
+                console.log('out...');
+            });
+        }
+
+        // #4
+        function promiseTest() {
+
+            $("#chain").click(function (e) {
+                e.preventDefault();
+                console.log('init chain function');
+                clearOutPro()
+                .then(() => {
+                        console.log('a');
+                        return printString("A");
+                    })
+                    .then(() => {
+                        console.log('b');
+                        return printString("B");
+                    })
+                    .then(() => {
+                        console.log('c');
+                        return printString("C");
+                    })
+            });
+
+            $("#asyncWay").click(async function (e) {
+                e.preventDefault();
+                await clearOutPro();
+                await printString("A");
+                await printString("B");
+                await printString("C");
+            });
+
+        }
+
+        
+    </script>
+    <style>
+        #lab1 {
+            width: 300px;
+        }
+
+        .form1 {
+            width: 100%;
+            display: grid;
+            grid-template-rows: auto;
+            gap: 5px;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        .form1 button {
+            background-color: grey;
+            color: white;
+            border-radius: 5px;
+            padding: 4px;
+        }
+
+        .oneColumn {
+            grid-template-columns: 1fr;
+        }
+
+        .twoColumns {
+            grid-template-columns: 1fr 1fr;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section id="lab1">
+        <h1>Lab1</h1>
+        <div class="form1 twoColumns">
+            <label for="first">1st number:</label>
+            <input type="number" name="first" id="first" value="2">
+            <label for="second">2nd number:</label>
+            <input type="number" name="second" id="second" value="3">
+            <button type="button" id="multiply">Multiply</button>
+            <button type="button" id="divide">Divide</button>
+        </div>
+        <div class="result" id="output1"></div>
+    </section>
+    <hr>
+    <section id="lab1">
+        <h1>Lab2 - temperature</h1>
+        <div class="form1 twoColumns">
+            <label for="celcius">Celcius:</label>
+            <input type="number" name="celcius" id="celcius">
+            <label for="fah">Fahrenheit:</label>
+            <input type="number" name="fah" id="fah">
+            <button type="button" id="toFah">to Fahrenheit</button>
+            <button type="button" id="toCelcius">to Celcius</button>
+        </div>
+        <div id="toFah"></div>
+    </section>
+    <hr>
+    <section id="lab1">
+        <h1>Lab3 - starts with</h1>
+        <div class="form1 oneColumn">
+            <label for="toVerify">Type a text:</label>
+            <input type="text" name="toVerify" id="toVerify">
+            <button id="checkJava">Check (Java)</button>
+            <div id="output3"></div>
+        </div>
+    </section>
+    <hr>
+    <section id="lab1">
+        <h1>Lab4 - Promise</h1>
+        <div class="form1 oneColumn">
+            <button id="chain">Promise chain</button>
+            <button id="asyncWay">Asinc/await</button>
+            <div id="outputPromise">>></div>
+        </div>
+    </section>
+</body>
+
+</html>
