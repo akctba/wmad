@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact form</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="jumbotron text-center">
+        <h1>Form with AJAX API</h1>
+        <p>Resize this responsive page to see the effect!</p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-8">
+
+                <form id="my-form" action="https://formspree.io/xqkqllqv" method="POST" class="was-validated">
+                <!-- <form id="my-form" class="was-validated"> -->
+                    <div class="form-group">
+                        <label for="email">Your Email:</label>
+                        <input type="email" class="form-control" placeholder="Enter your email" name="email" id="email" required />
+                        <div class="valid-feedback">Valid</div>
+                        <div class="invalid-feedback">Please fill out your email here</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City of interest:</label>
+                        <select class="form-control" name="cities" id="cities" required>
+                            <option value="">Select</option>
+                            <option value="vancouver">Vancouver</option>
+                            <option value="winnipeg">Winnipeg</option>
+                            <option value="toronto">Toronto</option>
+                        </select>
+                        <div class="valid-feedback">Nice!</div>
+                        <div class="invalid-feedback">Pick one city</div>
+                    </div>
+                    <div class="form-group">
+                        <label for="contactOn">Contact me by:</label>
+                        <div>
+                            <label for="contactbyphone">Phone</label>
+                            <input type="checkbox" name="byphone" id="contactbyphone">
+                            <label for="contactbyemail">Email</label>
+                            <input type="checkbox" name="byemail" id="contactbyemail">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Message:</label>
+                        <input class="form-control" type="text" name="message" required />
+                        <div class="valid-feedback">That is enougth :-)</div>
+                        <div class="invalid-feedback">Please write down some message</div>
+                    </div>
+                    <button id="my-form-button">Submit</button>
+
+            </div>
+            <p id="my-form-status"></p>
+            <div class="alert alert-danger" role="alert" style="display: none;">
+                <ul id="errors">
+
+                </ul>
+            </div>
+
+            </form>
+
+        </div>
+    </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <!-- Script to post form -->
+    <script>
+        window.addEventListener("DOMContentLoaded", function () {
+
+            // get the form elements defined in your form HTML above
+
+            var form = document.getElementById("my-form");
+            var button = document.getElementById("my-form-button");
+            var status = document.getElementById("my-form-status");
+
+            // Success and Error functions for after the form is submitted
+
+            function success() {
+                form.reset();
+                button.style = "display: none ";
+                status.innerHTML = "Thanks!";
+            }
+
+            function error() {
+                status.innerHTML = "Oops! There was a problem.";
+            }
+
+            // handle the form submission event
+
+            form.addEventListener("submit", function (ev) {
+                ev.preventDefault();
+                cleanError();
+                if (validForm()) {
+                    var data = new FormData(form);
+                    ajax(form.method, form.action, data, success, error);
+                }
+            });
+        });
+
+        // helper function for sending an AJAX request
+        function ajax(method, url, data, success, error) {
+            var xhr = new XMLHttpRequest();
+            xhr.open(method, url);
+            xhr.setRequestHeader("Accept", "application/json");
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState !== XMLHttpRequest.DONE) return;
+                if (xhr.status === 200) {
+                    success(xhr.response, xhr.responseType);
+                } else {
+                    error(xhr.status, xhr.response, xhr.responseType);
+                }
+            };
+            xhr.send(data);
+        }
+
+        function addError(msg) {
+            let list = document.getElementById('errors');
+            let li = document.createElement("li");
+            li.innerHTML = msg;
+            list.appendChild(li);
+        }
+
+        function cleanError() {
+            $('.alert').attr("style", "display: none");
+
+            let list = document.getElementById('errors');
+            // As long as <ul> has a child node, remove it
+            while (list.hasChildNodes()) {
+                list.removeChild(list.firstChild);
+            }
+        }
+
+        function validForm() {
+            $('#email').val($('#email').val().trim());
+            if ($('#email').val() == null || $('#email').val() == '') {
+                addError('Email is required');
+            }
+
+            if (!$('#contactbyphone').prop("checked") && !$('#contactbyemail').prop("checked")) {
+                addError('At least one option of contact is required');
+            }
+
+
+            if (document.getElementById("errors").hasChildNodes()) {
+                $('.alert').attr("style", "display: block");
+            }
+
+            return !document.getElementById("errors").hasChildNodes();
+            //return false;
+        }
+    </script>
+
+</body>
+
+</html>
