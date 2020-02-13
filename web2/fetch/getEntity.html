@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <title>Fetch data to form</title>
+</head>
+
+<body>
+
+
+    <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>Fetch data example</h1>
+        <p>JavaScript fetch data example</p>
+    </div>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+        <a class="navbar-brand" href="#">Fetch</a>
+
+
+    </nav>
+    
+    <div class="container p-3 my-3">
+        <form action="">
+            <div class="shadow p-3 mb-5 bg-light rounded">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Name</label>
+                        <input type="text" class="form-control" id="inputName">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputUsername">Username</label>
+                        <input type="text" class="form-control" id="inputUsername">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail">
+                    </div>
+                </div>
+            </div>
+            <div class="shadow p-3 mb-5 bg-light rounded">
+                <div class="form-row">
+                    <div class="form-group col-md-8">
+                        <label for="inputStreet">Street</label>
+                        <input type="text" class="form-control" id="inputStreet">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputSuite">Suite</label>
+                        <input type="text" class="form-control" id="inputSuite">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-8">
+                        <label for="inputCity">City</label>
+                        <input type="text" class="form-control" id="inputCity">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputZipcode">Zipcode</label>
+                        <input type="text" class="form-control" id="inputZipcode">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-4">
+                        <label for="inputLat">Latitude</label>
+                        <input type="text" class="form-control" id="inputLat">
+                        <label for="inputLng">Longitude</label>
+                        <input type="text" class="form-control" id="inputLng">
+                    </div>
+                    <div class="form-group col-md-8">
+                        <div id="map" style="width: 100%; height: 300px;"></div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputPhone">Phone</label>
+                        <input type="tel" class="form-control" id="inputPhone">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputWebsite">Website</label>
+                        <input type="url" class="form-control" id="inputWebsite">
+                    </div>
+                </div>
+            </div>
+            <div class="shadow p-3 mb-5 bg-light rounded">
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="inputCompany">Company</label>
+                        <input type="text" class="form-control" id="inputCompany">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="inputPrase">Catch phrase</label>
+                        <textarea class="form-control" rows="5" id="inputPrase"></textarea>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="inputBS">B.S.</label>
+                        <input type="text" class="form-control" id="inputBS">
+                    </div>
+                </div>
+            </div>
+            <div class="shadow p-3 mb-5 bg-light rounded">
+                <div class="form-row">
+                    <div class="form-group col-md-12 ">
+                        <div class="btn-group btn-group-lg">
+                            <button type="button" class="btn btn-primary">Save</button>
+                            <button type="button" class="btn btn-warning">Delete</button>
+                            <button type="button" class="btn btn-primary">Cancel</button>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+<script>
+    var requestOptions = {
+        method: 'GET',
+        redirect: 'follow'
+    };
+
+    fetch("https://jsonplaceholder.typicode.com/users/3", requestOptions)
+        .then((response) => {
+            if(response.status !== 200) {
+                console.log('Looks like there was a problem. Status Code:' + response.status);
+                return;
+            }
+
+            response.json().then(function(data){
+                console.log(data);
+                $("#inputName").val(data.name);
+                $("#inputUsername").val(data.username);
+                $("#inputEmail").val(data.email);
+                $("#inputStreet").val(data.address.street);
+                $("#inputSuite").val(data.address.suite);
+                $("#inputCity").val(data.address.city);
+                $("#inputZipcode").val(data.address.zipcode);
+                $("#inputLat").val(data.address.geo.lat);
+                $("#inputLng").val(data.address.geo.lng);
+                $("#inputPhone").val(data.phone);
+                $("#inputWebsite").val(data.website);
+                $("#inputCompany").val(data.company.name);
+                $("#inputPrase").val(data.company.catchPhrase);
+                $("#inputBS").val(data.company.bs);
+                //load the condinates in the map
+                initMap(data.address.geo.lat, data.address.geo.lng);
+            })
+            .catch(function(error){
+                console.log('this is a error ' +  error);
+            });
+        })
+        //.then(result => console.log(result))
+        .catch(error => console.log('error', error));
+
+        // load map
+        var map;
+        function initMap(_lat, _lng) {
+            console.log(_lat);
+            console.log(_lng);
+
+            map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: parseFloat(_lat), lng: parseFloat(_lng)},
+            zoom: 8
+            });
+        }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC1ewG0239kTVrXXJBGDaj-Y_jYxMbpR_o&callback=initMap"
+    async defer></script>
+</html>
