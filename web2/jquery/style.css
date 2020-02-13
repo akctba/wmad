@@ -1,0 +1,40 @@
+/* GENERAL PROPERTIES */
+p {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    background: green;
+    padding: 10px;
+}
+
+.container p {
+
+}
+
+#container2 {
+    width: 100%;
+    background: black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#container2 .container-text p { 
+    text-transform: uppercase;
+}
+
+.changeColor {
+    background: black;
+    margin: 10px auto;
+    padding: 10px;
+}
+.changeColor a {
+    color: green;
+}
+
+.text-red {
+    color: red !important;
+}
