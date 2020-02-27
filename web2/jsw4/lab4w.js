@@ -7,6 +7,12 @@ var list;
 var page = 1;
 
 function fetchData() {
+
+    /*
+    This website use data from https://picsum.photos/ API
+    */
+
+
     fetch(`https://picsum.photos/v2/list?page=${page}&limit=12`)
         .then(resp => {
             if (resp.status !== 200) {
