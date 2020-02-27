@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Bootstrap 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .box {
+            border: 2px solid black;
+            border-radius: 10px;
+            background-color: aquamarine;
+            width: 100%;
+            height: 100%;
+            min-height: 100px;
+            text-align: center;
+        }
+        section {
+            /* to simulate the increase of content */
+            min-height: 250px !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <header class="row">
+            <div class="box">Header</div>
+        </header>
+        <div class="row">
+            <div class="col-md-2 p-0">
+                <aside><div class="box align-middle">Aside</div></aside>
+                <aside><div class="box">Aside</div></aside>
+            </div>
+            <div class="col-md-10 p-0">
+                <section class="box">Section</section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <aside><div class="box">Aside</div></aside>
+                <aside><div class="box">Aside</div></aside>
+            </div>
+        </div>
+        <footer class="row">
+            <div class="box">Footer</div>
+        </footer>
+    </div>
+</body>
+</html>
