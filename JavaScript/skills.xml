@@ -1,0 +1,1085 @@
+<ul tabindex="-2" class="WPKR WELR WE1Y" role="listbox" data-automation-id="selectedItemList"
+    aria-label="WDRES.ACCESSIBILITY.PROMPT.ItemsSelected" aria-activedescendant="5f09500a341645108d58f46912f8236b">
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="51f8d0723fc24d3ba8c13b57246287aa"
+            data-automation-id="menuItem" aria-label="JavaScript, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="1">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_JavaScript">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-364"
+                        data-automation-label="JavaScript" title="JavaScript" aria-label="JavaScript">JavaScript</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="b46d2eda7adb4084b783bde50fc72f86"
+            data-automation-id="menuItem" aria-label="Web services, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="2">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Web services">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-365"
+                        data-automation-label="Web services" title="Web services" aria-label="Web services">Web services
+                    </div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="ab2616d4c09746549b679a9fbe955b63"
+            data-automation-id="menuItem" aria-label="Java, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="3">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Java">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-366"
+                        data-automation-label="Java" title="Java" aria-label="Java">Java</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="0f28539bd67e4f02945534c33ed5ef14"
+            data-automation-id="menuItem" aria-label="Design Patterns, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="4">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Design Patterns">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-367"
+                        data-automation-label="Design Patterns" title="Design Patterns" aria-label="Design Patterns">
+                        Design Patterns</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="06aff483e0c14781830f65dfa742dd8b"
+            data-automation-id="menuItem" aria-label="SOA, press delete to clear value." role="option" aria-setsize="41"
+            aria-posinset="5">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_SOA">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-368"
+                        data-automation-label="SOA" title="SOA" aria-label="SOA">SOA</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="db5028d66e6a4bc9b37b2ccd05b85590"
+            data-automation-id="menuItem" aria-label="ITIL, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="6" data-automation-selected="false" aria-selected="false">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_ITIL">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-370"
+                        data-automation-label="ITIL" title="ITIL" aria-label="ITIL">ITIL</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="c33fc32762854638909decde1a2a58a7"
+            data-automation-id="menuItem" aria-label="Scrum, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="7">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Scrum">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-371"
+                        data-automation-label="Scrum" title="Scrum" aria-label="Scrum">Scrum</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="9515fff580c344fdad4ab66ce5f6c9a7"
+            data-automation-id="menuItem" aria-label="Agile Methodologies, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="8">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Agile Methodologies">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-372"
+                        data-automation-label="Agile Methodologies" title="Agile Methodologies"
+                        aria-label="Agile Methodologies">Agile Methodologies</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="28b3d573593c407a9bec3c68525a1cc5"
+            data-automation-id="menuItem" aria-label="Web Services, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="9">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Web Services">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-373"
+                        data-automation-label="Web Services" title="Web Services" aria-label="Web Services">Web Services
+                    </div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="b374a9a02cb24601835da83acc8e8f97"
+            data-automation-id="menuItem" aria-label="Business Requirements, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="10">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Business Requirements">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-374"
+                        data-automation-label="Business Requirements" title="Business Requirements"
+                        aria-label="Business Requirements">Business Requirements</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="7d6a436a60d54121915f73c5b16e9c8c"
+            data-automation-id="menuItem" aria-label="Data Modeling, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="11">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Data Modeling">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-375"
+                        data-automation-label="Data Modeling" title="Data Modeling" aria-label="Data Modeling">Data
+                        Modeling</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="3dacc7a6319c4952a1561b4b107c0f8a"
+            data-automation-id="menuItem" aria-label="Service Desk, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="12">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Service Desk">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-376"
+                        data-automation-label="Service Desk" title="Service Desk" aria-label="Service Desk">Service Desk
+                    </div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="e46914fe27134173833f3bd9666f37af"
+            data-automation-id="menuItem" aria-label="Microsoft Project, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="13">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Microsoft Project">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-377"
+                        data-automation-label="Microsoft Project" title="Microsoft Project"
+                        aria-label="Microsoft Project">Microsoft Project</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="508cc7939de74b92ad758df23ecd071e"
+            data-automation-id="menuItem" aria-label="VSCode, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="14">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_VSCode">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-378"
+                        data-automation-label="VSCode" title="VSCode" aria-label="VSCode">VSCode</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="464717d9a64f4608b251237cbde8843d"
+            data-automation-id="menuItem" aria-label="UML, press delete to clear value." role="option" aria-setsize="41"
+            aria-posinset="15">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_UML">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-379"
+                        data-automation-label="UML" title="UML" aria-label="UML">UML</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="97a3d5fd170d40858d7247d88e51d470"
+            data-automation-id="menuItem" aria-label="PL/SQL, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="16">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_PL/SQL">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-380"
+                        data-automation-label="PL/SQL" title="PL/SQL" aria-label="PL/SQL">PL/SQL</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="2d6abce8646a401bbc40c114efcc80af"
+            data-automation-id="menuItem" aria-label="SQL, press delete to clear value." role="option" aria-setsize="41"
+            aria-posinset="17">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_SQL">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-381"
+                        data-automation-label="SQL" title="SQL" aria-label="SQL">SQL</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="6a7097601e2540a9b7e63792d19c8b91"
+            data-automation-id="menuItem" aria-label="XML, press delete to clear value." role="option" aria-setsize="41"
+            aria-posinset="18">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_XML">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-382"
+                        data-automation-label="XML" title="XML" aria-label="XML">XML</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="c536d1631d4942dfac6d95fd62fe8232"
+            data-automation-id="menuItem" aria-label="Oracle, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="19">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Oracle">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-383"
+                        data-automation-label="Oracle" title="Oracle" aria-label="Oracle">Oracle</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="b699baf2ff724d60ad89210d6ec39781"
+            data-automation-id="menuItem" aria-label="JSP, press delete to clear value." role="option" aria-setsize="41"
+            aria-posinset="20" data-automation-selected="false" aria-selected="false">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_JSP">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-385"
+                        data-automation-label="JSP" title="JSP" aria-label="JSP">JSP</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="950794716783473691433bc1b9f39dc6"
+            data-automation-id="menuItem" aria-label="JSF, press delete to clear value." role="option" aria-setsize="41"
+            aria-posinset="21">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_JSF">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-386"
+                        data-automation-label="JSF" title="JSF" aria-label="JSF">JSF</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="281b6c67ed724402827d491ff5d4ff2e"
+            data-automation-id="menuItem" aria-label="Hibernate, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="22">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Hibernate">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-387"
+                        data-automation-label="Hibernate" title="Hibernate" aria-label="Hibernate">Hibernate</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="749c7f8d7b784f53b1392905eae581ad"
+            data-automation-id="menuItem" aria-label="Struts, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="23">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Struts">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-388"
+                        data-automation-label="Struts" title="Struts" aria-label="Struts">Struts</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="4b6f685a7ace48e1896fe3b43d73a069"
+            data-automation-id="menuItem" aria-label="HTML5, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="24">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_HTML5">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-389"
+                        data-automation-label="HTML5" title="HTML5" aria-label="HTML5">HTML5</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="9d0981317a2746f3a2353736781265f6"
+            data-automation-id="menuItem" aria-label="CSS, press delete to clear value." role="option" aria-setsize="41"
+            aria-posinset="25">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_CSS">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-390"
+                        data-automation-label="CSS" title="CSS" aria-label="CSS">CSS</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="2cd130429afd459882775cdff1f2b10e"
+            data-automation-id="menuItem" aria-label="NodeJS, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="26">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_NodeJS">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-391"
+                        data-automation-label="NodeJS" title="NodeJS" aria-label="NodeJS">NodeJS</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="034ead4c677b401d979d3ffa2ed0c478"
+            data-automation-id="menuItem" aria-label="MongoDB, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="27">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_MongoDB">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-392"
+                        data-automation-label="MongoDB" title="MongoDB" aria-label="MongoDB">MongoDB</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="4e84548f015f430fa788e3b57e7835f8"
+            data-automation-id="menuItem" aria-label="Microsoft Excel, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="28" data-automation-selected="false" aria-selected="false">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Microsoft Excel">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-395"
+                        data-automation-label="Microsoft Excel" title="Microsoft Excel" aria-label="Microsoft Excel">
+                        Microsoft Excel</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="6917f761224842a382a59d5061248ddc"
+            data-automation-id="menuItem" aria-label="Git, press delete to clear value." role="option" aria-setsize="41"
+            aria-posinset="29">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Git">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-396"
+                        data-automation-label="Git" title="Git" aria-label="Git">Git</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="006e31b4732f419d81ddd5a18279cd1c"
+            data-automation-id="menuItem" aria-label="React.js, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="30" data-automation-selected="false" aria-selected="false">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_React.js">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-398"
+                        data-automation-label="React.js" title="React.js" aria-label="React.js">React.js</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="939de94c0e1f4e0c99c22e95ef79f3ad"
+            data-automation-id="menuItem" aria-label="Databases, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="31">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Databases">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-399"
+                        data-automation-label="Databases" title="Databases" aria-label="Databases">Databases</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="f0f58635339947babd4b3eff31325d4a"
+            data-automation-id="menuItem" aria-label="NoSQL, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="32">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_NoSQL">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-400"
+                        data-automation-label="NoSQL" title="NoSQL" aria-label="NoSQL">NoSQL</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="4a88d1863bbe4842829eb785245dc488"
+            data-automation-id="menuItem" aria-label="Bootstrap, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="33">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Bootstrap">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-401"
+                        data-automation-label="Bootstrap" title="Bootstrap" aria-label="Bootstrap">Bootstrap</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="fc4899c4d57c4302ae70ac558bd04e3e"
+            data-automation-id="menuItem" aria-label="Problem Solving, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="34">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Problem Solving">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-402"
+                        data-automation-label="Problem Solving" title="Problem Solving" aria-label="Problem Solving">
+                        Problem Solving</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="5e9e139c521244eab72803c0b4aef111"
+            data-automation-id="menuItem" aria-label="Primefaces, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="35" data-automation-selected="false" aria-selected="false">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Primefaces">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-406"
+                        data-automation-label="Primefaces" title="Primefaces" aria-label="Primefaces">Primefaces</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="ea166906f9fc4b048904413a21a6a004"
+            data-automation-id="menuItem" aria-label="Express.js, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="36">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Express.js">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-407"
+                        data-automation-label="Express.js" title="Express.js" aria-label="Express.js">Express.js</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="9ebc3248659e411d8bcb65363b371d31"
+            data-automation-id="menuItem" aria-label="Application Support, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="37">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Application Support">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-408"
+                        data-automation-label="Application Support" title="Application Support"
+                        aria-label="Application Support">Application Support</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="e09717c8bb1e4f5086d6a23931f60b71"
+            data-automation-id="menuItem" aria-label="Back-End Web Development, press delete to clear value."
+            role="option" aria-setsize="41" aria-posinset="38">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Back-End Web Development">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-409"
+                        data-automation-label="Back-End Web Development" title="Back-End Web Development"
+                        aria-label="Back-End Web Development">Back-End Web Development</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="c0d5fa1dba61475391813fc3d480cbb0"
+            data-automation-id="menuItem" aria-label="Software System Analysis, press delete to clear value."
+            role="option" aria-setsize="41" aria-posinset="39">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Software System Analysis">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-410"
+                        data-automation-label="Software System Analysis" title="Software System Analysis"
+                        aria-label="Software System Analysis">Software System Analysis</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="5f09500a341645108d58f46912f8236b"
+            data-automation-id="menuItem" aria-label="TypeScript, press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="40" data-automation-selected="false" aria-selected="false">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_TypeScript">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-412"
+                        data-automation-label="TypeScript" title="TypeScript" aria-label="TypeScript">TypeScript</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+    <li class="WDLR" role="presentation">
+        <div class="WJKR WFKR WLJR WCLR" tabindex="-2" id="639c9b169da84904923d275426b56bc8"
+            data-automation-id="menuItem"
+            aria-label="Software Development Life Cycle (SDLC), press delete to clear value." role="option"
+            aria-setsize="41" aria-posinset="41">
+            <div class="WKKR">
+                <div class="WJDP WDCP" data-automation-id="selectedItem_Software Development Life Cycle (SDLC)">
+                    <ul class="WLCP WBDP" role="presentation">
+                        <li class="WIDP">
+                            <div role="presentation" data-automation-id="DELETE_charm" class="WE1K WD1K WMBS WCBS WMCP"
+                                aria-hidden="true"><svg width="24" height="24" class="wd-icon-x wd-icon"
+                                    focusable="false" role="presentation" viewBox="0 0 24 24">
+                                    <g fill-rule="evenodd" class="wd-icon-container">
+                                        <path
+                                            d="M5.996 4.582a.5.5 0 0 0-.717-.003l-.7.7a.504.504 0 0 0 .003.717L10.586 12l-6.004 6.004a.5.5 0 0 0-.003.717l.7.7c.197.197.514.2.717-.003L12 13.414l6.004 6.004a.5.5 0 0 0 .717.003l.7-.7a.504.504 0 0 0-.003-.717L13.414 12l6.004-6.004a.5.5 0 0 0 .003-.717l-.7-.7a.504.504 0 0 0-.717.003L12 10.586 5.996 4.582z"
+                                            class="wd-icon-fill"></path>
+                                    </g>
+                                </svg></div>
+                        </li>
+                    </ul>
+                    <div class="gwt-Label WKDP WDCP" data-automation-id="promptOption" id="promptOption-gwt-uid-413"
+                        data-automation-label="Software Development Life Cycle (SDLC)"
+                        title="Software Development Life Cycle (SDLC)"
+                        aria-label="Software Development Life Cycle (SDLC)">Software Development Life Cycle (SDLC)</div>
+                    <ul class="WLCP"></ul>
+                </div>
+            </div>
+        </div>
+    </li>
+</ul>

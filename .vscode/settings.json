@@ -1,3 +1,4 @@
 {
-    "liveServer.settings.multiRootWorkspaceName": "wmad"
+    "liveServer.settings.multiRootWorkspaceName": "wmad",
+    "liveServer.settings.port": 5501
 }

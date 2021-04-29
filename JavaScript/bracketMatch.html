@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bracket match</title>
+</head>
+<body>
+    <h1>Bracket match</h1>
+    <p>A string of brackets is considered correctly matched if every opening bracket in the string can be paired up with a later closing bracket, and vice versa. For instance, “(())()” is correctly matched, whereas “)(“ and “((” aren’t. For instance, “((” could become correctly matched by adding two closing brackets at the end, so you’d return 2.</p>
+    <p>Given a string that consists of brackets, write a function bracketMatch that takes a bracket string as an input and returns the minimum number of brackets you’d need to add to the input in order to make it correctly matched.</p>
+    <p>Explain the correctness of your code, and analyze its time and space complexities.</p>
+    <p><strong>Examples:</strong></p>
+    <ul>
+        <li>input:  text = “(()” - output: 1</li>
+        <li>input:  text = “(())” - output: 0</li>
+        <li>input:  text = “())(” - output: 2 one at the beguining and another at the end</li>
+    </ul>
+    <hr>
+    <input type="text" name="" id="expression" value="())(">
+    <input type="button" value="check" onclick="check()">
+    <div id="output"></div>
+
+    <script>
+        function check() {
+            let result = bracketMatch(document.getElementById('expression').value);
+            document.getElementById('output').innerHTML = result;
+        }
+
+        function bracketMatch(text) {
+            // your code goes here
+            let ntext = text.replace(" ", "");
+
+            console.log(ntext.search("()"))
+            
+            while(ntext.search("()") >= 0) {
+                ntext = ntext.replace("()", "");
+                console.log("ntext> " + ntext);
+            }
+
+            console.log("end ntext> " + ntext);
+            
+            return ntext.length;
+        }
+    </script>
+    
+</body>
+</html>

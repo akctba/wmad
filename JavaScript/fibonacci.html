@@ -9,14 +9,19 @@
     * {
         margin: 5px;
     }
+    i, sup {
+        margin: 0;
+    }
     </style>
 </head>
 <body>
     <div>
+        <h2>Fibonacci serie using Dinamic programming</h2>
         Initial value: <input type="number" id="initial" value="1"><br>
         Fibonacci array size: <input type="number" id="size" value="10"><br>
         <button type="button" onclick="calc()">Go!</button>
         <div id="output"></div>
+        <p>Time complexity Linear - O(<i>n</i>)</p>
     </div>
     <script>
         function calc() {
@@ -30,13 +35,19 @@
 
             let size = parseInt(document.getElementById("size").value);
 
+            let iteractions = 0;
+
             for(let i = 1; i <=size; i++) {
-                out.innerHTML += c + ", ";
+                iteractions++;
+                out.innerHTML += c + (i<size?", ": " <<<");
                 
                 c = a+b;
                 a = b;
                 b = c;
             }
+
+            out.innerHTML += "<br><br>Number of iteractions: " + iteractions;
+
         }
     </script>
 </body>

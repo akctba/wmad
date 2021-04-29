@@ -1,0 +1,62 @@
+<!-- Enter your HTML code here. Plagiarism is NOT tolerated! -->
+<!doctype html>
+<html>
+    <head>
+        <title>Task management app</title>
+        <meta charset="utf-8">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div id="alertRow" class="rowalert" style="display: none">
+                <div id="alertMessage" class="topalert" >alert:</div>
+            </div>
+            <div class="tasks">
+                <header>
+                    <h1>Task management</h1>
+                </header>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Task</th><th>Priority</th><th>Deadline</th><th>&nbsp;</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tasklist">
+
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                <input type="text" id="taskName" required>
+                            </td>
+                            <td>
+                                <select id="taskPriority" required>
+                                    <option value=''>Select</option>
+                                    <option value='Low'>Low</option>
+                                    <option value='Medium'>Medium</option>
+                                    <option value='High'>High</option>
+                                </select>
+                            </td>
+                            <td>
+                                <input type="date" id="taskDeadline">
+                            </td>
+                            <td>
+                                <input type="button" class="add" id="addTask" value="Add task">
+                                <input type="button" id="saveTask" value="Save" style="display: none">
+                                <input type="button" id="cancelTask" value="Cancel" style="display: none">
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <footer>
+                <div class="quote">
+                    * This app doesn't store your data.
+                </div>
+            </footer>
+        </div>
+        
+    </body>
+</html>

@@ -40,6 +40,8 @@ public class FileMngment {
 			byte[] buffer = new byte[1024];
 			int lengthRead;
 			while ((lengthRead = in.read(buffer)) > 0) {
+				
+				// it's possible to append in a StringBuffer here
 				out.write(buffer, 0, lengthRead);
 				out.flush();
 			}

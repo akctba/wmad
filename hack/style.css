@@ -1,0 +1,60 @@
+/* Add your css styles here. Plagiarism is NOT tolerated!*/
+ /*.container should be bootstrap */
+
+ header h1 {
+    text-align: center;
+}
+
+.quote {
+    width: fit-content;
+    padding: 25px 0;
+    margin: 0 auto;
+}
+
+.tasks {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: rgba(254, 227, 193, 0.7);
+    border: 2px solid bisque;
+    border-radius: 20px;
+}
+
+.tasks table {
+    border-collapse: collapse;
+}
+
+.tasks table td {
+    padding: 5px;
+}
+
+.rowalert {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.topalert {
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.topalert a, .topalert a:active, .topalert a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.deleting {
+    background-color: lightcoral;
+    color: white;
+}
+
+.editing {
+    background-color: lightgreen;
+}

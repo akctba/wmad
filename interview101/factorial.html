@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Factorial</h2>
+    <input type="number" name="factor" id="factor" min="1">
+    <input type="button" value="Get Factorial" onclick="calc()" />
+    <h3 id="output"></h3>
+
+    <script>
+        const factorial = function fac(n) { return n < 2 ? 1 : n * fac(n - 1) }
+        //console.log(factorial(6))
+
+        function calc() {
+            let i = document.getElementById("factor");
+            let out = document.getElementById("output");
+
+            out.innerHTML = factorial(i.value)
+        }
+
+    </script>
+</body>
+</html>
+

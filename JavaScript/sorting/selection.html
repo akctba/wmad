@@ -8,23 +8,26 @@
 </head>
 <body>
     <input type="text" id="array" value="1,9,4,5,16,7,33">
-    <button type="button" onclick="selectSort()">Sort!</button>
+    <button type="button" onclick="selectSort()">Selection Sort!</button>
     <div id="output"></div>
 
     <script>
         var out = document.getElementById("output");
 
-
         function selectSort() {
             out.innerHTML = "";
-
+            
             let textArray = document.getElementById("array").value;
             let lista = textArray.split(",");
-
+            
             let n = lista.length;
             var min_index;
-  
-            for (let i = 0; i < n-1; i++) {
+
+            out.innerHTML += "initial: [" + lista + "]<br>";
+            let i;
+            for (i = 0; i < n-1; i++) {
+                
+
                 min_index = i;
                 for (let j = i+1; j < n; j++) {
                     //out.innerHTML += "posicao "+i+"-"+j;
@@ -38,9 +41,12 @@
                 let temp = lista[i]; 
                 lista[i] = lista[min_index]; 
                 lista[min_index] = temp; 
-                
+
                 out.innerHTML += "step " + i + ": [" + lista + "]<br>";
-            } 
+                
+            }
+            out.innerHTML += "result: <strong>[" + lista + "]</strong><br>";
+            out.innerHTML += "Number of steps: " + (i+1);
         }
     
     </script>

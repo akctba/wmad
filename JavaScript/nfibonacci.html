@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fibonacci</title>
+    <style>
+    * {
+        margin: 5px;
+    }
+    sup, i {
+        margin: 0;
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Nth Fibonacci using recursivity</h2>
+        N<sup>th</sup> Fibonacci: <input type="number" id="nth" value="10">
+        <button type="button" onclick="calc()">Go!</button>
+        <div id="output"></div>
+        <p>Exponencial time complexity - 2<sup><i>O(n)</i></sup></p>
+    </div>
+    <script>
+        var iteractions = 0;
+
+        function calc() {
+            let out = document.getElementById("output");
+            let nth = parseInt(document.getElementById("nth").value);
+            iteractions = 0;
+            out.innerHTML = fib(nth)
+
+            out.innerHTML += "<br><br>Number of iteractions: "+iteractions;
+        }
+
+        function fib(n) {
+            iteractions++;
+            return (n<=1) ? n : fib(n-1) + fib(n-2);
+        }
+    </script>
+</body>
+</html>

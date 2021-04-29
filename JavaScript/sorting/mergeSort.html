@@ -8,7 +8,7 @@
 </head>
 <body>
     <input type="text" id="array" value="6,2,5,3,8,7,1,4,11">
-    <button type="button" onclick="start()">Sort!</button>
+    <button type="button" onclick="start()">merge Sort!</button>
     <div id="output"></div>
 
     <script>
@@ -31,7 +31,7 @@
         // Merge sort function - Alex Kayser
         function mergeSort(list) {
 
-            // if there are only one element, is sorted!
+            // if there are only one element, it is sorted!
             if (list.length <= 1) {
                 return list;
             }
